@@ -39,10 +39,3 @@ The Hierarchical-Clustering notebook provides a glimpse into how Hierarchical Cl
 
 This notebook is inspired by the work of [RomAmsili](https://github.com/RomAmsili) and the dataset used is also from the same source.
 
-Preprocess the articles using Doc2Vec embedding model with the parametes:
-
-vector_size=100, window=5, min_count=1, workers=4
-
-Fit doc2vec on the data and infer the vector for each article. 
-
-documentation of doc2vec model : https://radimrehurek.com/gensim/models/doc2vec.html
